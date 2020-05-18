@@ -1,0 +1,17 @@
+@import url('https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css');
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.title {
+    font-size: 2.7rem;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.section {
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.fp-tableCell {
+    vertical-align: unset;
+}

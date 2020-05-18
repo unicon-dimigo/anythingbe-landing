@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>KR - ANYTHINGBE</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles/fullpage.min.css" />
+  <link rel="stylesheet" type="text/css" href="assets/styles/index.css" />
+</head>
+
+<body>
+
+  <div id="fullpage">
+    <div class="section" id="section0">
+      <h2 class="title">당신의<br>가능성을<br>믿습니다.</h2>
+    </div>
+    <div class="section" id="section1">
+      <h2 class="title">우리가 도와줄게요.</h2>
+    </div>
+    <div class="section" id="section2">
+      <h2 class="title">무엇이든지.<br>누구든지.</h2>
+    </div>
+    <div class="section" id="section3">
+      <h2 class="title">함께 해주실 거죠?</h2>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/scripts/fullpage.min.js"></script>
+
+  <script type="text/javascript">
+    const anythingbeFullpage = new fullpage('#fullpage', {
+      anchors: ['1', '2', '3', '4'],
+      navigation: true,
+      navigationPosition: 'right',
+      navigationTooltips: ['1 Page', '2 Page', '3 Page', '4 Page'],
+      responsiveWidth: 900,
+      paddingTop: '32px',
+      paddingBottom: '32px',
+      paddingLeft: '64px',
+      paddingRight: 'px'
+    });
+  </script>
+</body>
+</html>
